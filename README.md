@@ -4,7 +4,8 @@
 This application allows users to describe images using their voice, converting the audio input into text with the OpenAI Whisper-1 model, and then generating an image from that text using the DALL-E model. Users can also obtain descriptions of their generated images via GeminiAI.
 
 ### How does App work?
-![Başlıksız Diyagram drawio (1)](https://github.com/user-attachments/assets/291ee693-cafb-4fca-a530-fcc507016416)
+
+![How does app work](https://github.com/user-attachments/assets/3f427fff-0093-4c10-9d8b-333f1fde1c03)
 
 
 
