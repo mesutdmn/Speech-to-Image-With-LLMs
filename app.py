@@ -7,11 +7,9 @@ from streamlit.components.v1 import html
 import audio_to_text
 import image_to_text
 import text_to_image
-from dotenv import load_dotenv
 from PIL import Image
 from openai import OpenAI
 import google.generativeai as genai
-load_dotenv() # Load the .env file
 
 st.set_page_config(page_title="Voice to Image", page_icon="🎤", layout="wide")
 st.image("./media/cover.webp", use_column_width=True)
