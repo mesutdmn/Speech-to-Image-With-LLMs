@@ -1,18 +1,11 @@
 import PIL.Image
 import requests
-import os
 import time
-from dotenv import load_dotenv
 from openai import OpenAI
 from io import BytesIO
+import os
 
-load_dotenv() # Load the .env file
-
-api_key = os.getenv("OPENAI_API_KEY") # Get the API key from the .env file
-
-client = OpenAI(api_key=api_key) # Create the OpenAI client
-
-def text_to_img_with_dall(text):
+def text_to_img_with_dall(client, text):
     """ Convert text to an image using OpenAI's DALL-E model """
 
     image_url = client.images.generate(

@@ -1,14 +1,5 @@
-from openai import OpenAI
-import os
-from dotenv import load_dotenv
 
-load_dotenv() # Load the .env file
-
-api_key = os.getenv("OPENAI_API_KEY") # Get the API key from the .env file
-
-client = OpenAI(api_key=api_key) # Create the OpenAI client
-
-def whisper_to_text(audio_path):
+def whisper_to_text(client, audio_path):
     """ Convert audio to text using OpenAI's Whisper model """
 
     audio = open(audio_path, "rb") # Open audio file in read binary mode
