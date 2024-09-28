@@ -14,6 +14,8 @@ import google.generativeai as genai
 st.set_page_config(page_title="Voice to Image", page_icon="🎤", layout="wide")
 st.image("./media/cover.webp", use_column_width=True)
 img_folder = './img'
+if not os.path.exists(img_folder):
+    os.makedirs(img_folder)
 images = [f for f in os.listdir(img_folder) if f.endswith(('.png', '.jpg', '.jpeg', '.gif'))]
 
 with st.sidebar:
