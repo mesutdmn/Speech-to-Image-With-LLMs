@@ -127,7 +127,7 @@ with col_image:
                 st.info(message["content"])
 
     if send_to_whisper & (wav_audio_data is not None):
-        save_audio(file=wav_audio_data)
+        save_audio()
         update_recording_status("🤖 Sent to AI")
         with st.chat_message(name="user", avatar="👤"):
             with st.spinner("📑 Converting audio to text..."):
