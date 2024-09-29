@@ -5,7 +5,7 @@ This application allows users to describe images using their voice, converting t
 
 ### How does App work?
 
-![How does app work](https://github.com/user-attachments/assets/3f427fff-0093-4c10-9d8b-333f1fde1c03)
+![How does App work?](https://github.com/user-attachments/assets/b8f2cbd7-b88b-471f-9488-22a555f629d1)
 
 
 
