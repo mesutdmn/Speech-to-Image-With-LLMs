@@ -76,7 +76,7 @@ def describe_image():
 
 def save_audio():
     if wav_audio_data is not None:
-        audio_segment = AudioSegment.from_file(io.BytesIO(wav_audio_data), format="wav")
+        audio_segment = AudioSegment.from_file(wav_audio_data, format="wav")
 
         update_recording_status("✅ Audio is valid!")
         sound_file = wave.open("sound.wav", "wb")  # Open sound file in write binary mode
