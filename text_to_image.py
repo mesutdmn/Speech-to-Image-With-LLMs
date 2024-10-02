@@ -10,7 +10,7 @@ def text_to_img_with_dall(client, text):
 
     image_url = client.images.generate(
         model="dall-e-3", # Model to use
-        size="256x256", # Size of the image
+        size="512x512", # Size of the image
         quality="hd", # Quality of the image
         n=1, # Number of images to generate
         response_format="url", # Format of the response
