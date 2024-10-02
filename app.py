@@ -143,5 +143,5 @@ with col_image:
             st.image(image, width=300)
         st.session_state["messages"].append({"role": "assistant", "content": image})
         st.session_state["latest_image"] = image
-sleep(0.5)
+sleep(1)
 script()
