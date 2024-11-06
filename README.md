@@ -3,7 +3,7 @@
 
 This application allows users to describe images using their voice, converting the audio input into text with the OpenAI Whisper-1 model, and then generating an image from that text using the DALL-E model. Users can also obtain descriptions of their generated images via GeminiAI.
 
-### How does App work?
+### How does the App work?
 
 ![How does App work?](https://github.com/user-attachments/assets/b8f2cbd7-b88b-471f-9488-22a555f629d1)
 
@@ -43,5 +43,9 @@ streamlit-audiorec
 
 If you have any suggestions or feedback regarding errors, please feel free to reach out to me on LinkedIn.
 
-### Main Page
-![app-main-page](https://github.com/user-attachments/assets/eb601c08-4498-4782-a200-1a072f0172a7)
+### Demo Video
+
+https://github.com/user-attachments/assets/87b3b821-2c35-4453-9fc0-a86ba393719d
+
+
+
